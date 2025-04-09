@@ -1,0 +1,38 @@
+{
+    "rose": {
+        "Monday": "morning",
+        "Tuesday": "morning",
+        "Wednesday": "afternoon",
+        "Thursday": "morning",
+        "Friday": "morning",
+        "Saturday": "morning",
+        "Sunday": "morning"
+    },
+    "Peter": {
+        "Monday": "morning",
+        "Tuesday": "morning",
+        "Wednesday": "morning",
+        "Thursday": "morning",
+        "Friday": "morning",
+        "Saturday": "morning",
+        "Sunday": "morning"
+    },
+    "Stefen": {
+        "Monday": "evening",
+        "Tuesday": "evening",
+        "Wednesday": "afternoon",
+        "Thursday": "afternoon",
+        "Friday": "evening",
+        "Saturday": "afternoon",
+        "Sunday": "evening"
+    },
+    "Gopal": {
+        "Monday": "evening",
+        "Tuesday": "afternoon",
+        "Wednesday": "evening",
+        "Thursday": "evening",
+        "Friday": "afternoon",
+        "Saturday": "evening",
+        "Sunday": "afternoon"
+    }
+}
