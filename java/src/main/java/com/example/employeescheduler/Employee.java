@@ -9,6 +9,7 @@ public class Employee {
     private final Map<String, String> assignedShifts = new HashMap<>(); // Tracks specific shifts assigned
     private int workDays = 0; // Days worked this week
 
+    // Constructor to initialize an Employee object with their name and preferences.
     public Employee(String name, String[] preferences) {
         this.name = name;
         this.preferences = preferences;
@@ -18,6 +19,7 @@ public class Employee {
         return name;
     }
 
+    // Returns the preferred shift for a given day.
     public String getPreference(String day) {
         int dayIndex = getDayIndex(day);
         if (dayIndex >= 0 && dayIndex < preferences.length) {
@@ -26,6 +28,7 @@ public class Employee {
         return null;
     }
 
+    // Checks if the employee can work a specific shift on a given day, considering their preferences and work limits.
     public boolean canWork(String day, String shift) {
         int dayIndex = getDayIndex(day);
         if (dayIndex >= 0 && dayIndex < preferences.length) {
@@ -34,10 +37,12 @@ public class Employee {
         return false;
     }
 
+    // Checks if the employee is available to work on a given day based on their weekly work limit.
     public boolean isAvailable(String day) {
         return workDays < 5 && !assignedDays.contains(day);
     }
 
+    // Assigns a specific shift to the employee for a given day and updates their work records.
     public void assignShift(String day, String shift) {
         if (!assignedDays.contains(day)) {
             assignedDays.add(day);
@@ -58,6 +63,7 @@ public class Employee {
         return workDays;
     }
 
+    // Utility method to get the index of a day of the week.
     private int getDayIndex(String day) {
         switch (day) {
             case "Monday":
