@@ -1,6 +1,4 @@
-# Importing the JSON module to handle reading and writing JSON data
 import json
-# Importing the os module for interacting with the operating system
 import os
 from src.input_handler import get_employee_preferences
 from src.schedular import assign_shifts, resolve_conflicts, schedule

@@ -1,4 +1,3 @@
-# employee_scheduler/src/scheduler.py
 import random
 
 # Data structure to store the final schedule
