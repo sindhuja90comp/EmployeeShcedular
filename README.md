@@ -9,7 +9,9 @@ Languages and Implementation:
 Languages: The project is implemented using two programming languages: Java and Python.
 
 Implementation:
+
 Java Implementation: This version focuses on a structured, object-oriented approach. It defines Employee objects to represent individual employees with their preferences and uses data structures like HashMap and ArrayList to manage employee data and the schedule. The core logic involves collecting employee data, generating the schedule based on predefined rules, and outputting the final schedule to the console.
+
 Python Implementation: This version also handles employee data and schedule generation. It uses Python's data structures (dictionaries and lists) to achieve similar functionality. The implementation is organized into modules for input handling, scheduling logic, and output display, promoting code reusability and maintainability.
 
 Application and How It Works:
