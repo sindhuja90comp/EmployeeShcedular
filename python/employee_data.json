@@ -34,5 +34,14 @@
         "Friday": "afternoon",
         "Saturday": "evening",
         "Sunday": "afternoon"
+    },
+    "monk": {
+        "Monday": "morning",
+        "Tuesday": "morning",
+        "Wednesday": "morning",
+        "Thursday": "morning",
+        "Friday": "morning",
+        "Saturday": "morning",
+        "Sunday": "morning"
     }
 }

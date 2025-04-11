@@ -27,11 +27,11 @@ Running the Python application is generally straightforward, assuming you have P
 
 Open the terminal or command prompt.
 
-Navigate to the root directory of the project (EmployeeScheduler/) using the cd (change directory) command. For example:
+Navigate to the root directory of the project (EmployeeScheduler/ or python) using the cd (change directory) command. For example:
 
 Bash
 
-cd EmployeeScheduler
+cd EmployeeScheduler or cd python
 Execute the main script (main.py) using the Python interpreter. The command to do this is:
 
 Bash
